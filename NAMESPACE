@@ -1,0 +1,5 @@
+importFrom("stats", "dnorm", "rbinom", "sd")
+export(relabel)
+S3method(relabel, default)
+S3method(relabel, matrix)
+
